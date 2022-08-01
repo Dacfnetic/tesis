@@ -1,0 +1,89 @@
+
+
+ ETABS Ultimate 64-bit 20.1.0 Build 2822 (Analysis Build 9895/64)               
+ File: C:\repos\tesis\cálculos...rta corrida - cambio de elevaciones\Escuela.OUT
+                                                                     
+                                                                       
+
+ 2, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+          858.303907  858.303907     .000000     .000000     .000000  5.9659E+07
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X    387.795276  387.795276  387.795276
+     Y    109.694153  109.694153   90.771203
+     Z    169.291339  169.291339  169.291339
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+       1               A   A   A   A   A   A
+       2               +   +   A   A   A   +
+       3               A   A   A   A   A   A
+       4               -   -   -   -   -   -
+       5               A   A   A   A   A   A
+       6               +   +   A   A   A   +
+       7               A   A   A   A   A   A
+       8               -   -   -   -   -   -
+       9               A   A   A   A   A   A
+      10               +   +   A   A   A   +
+      11               A   A   A   A   A   A
+      12               -   -   -   -   -   -
+      13               A   A   A   A   A   A
+      14               +   +   A   A   A   +
+      15               A   A   A   A   A   A
+      16               -   -   -   -   -   -
+      17               A   A   A   A   A   A
+      18               +   +   A   A   A   +
+      19               A   A   A   A   A   A
+      20               -   -   -   -   -   -
+      21               A   A   A   A   A   A
+      22               +   +   A   A   A   +
+      23               A   A   A   A   A   A
+      24               -   -   -   -   -   -
+      25               A   A   A   A   A   A
+      26               +   +   A   A   A   +
+      27               A   A   A   A   A   A
+      28               -   -   -   -   -   -
+      29               A   A   A   A   A   A
+      30               +   +   A   A   A   +
+      31               A   A   A   A   A   A
+      32               -   -   -   -   -   -
+      33               A   A   A   A   A   A
+      34               +   +   A   A   A   +
+      35               A   A   A   A   A   A
+      36               -   -   -   -   -   -
+      37               A   A   A   A   A   A
+      38               +   +   A   A   A   +
+      39               A   A   A   A   A   A
+      40               -   -   -   -   -   -
+      41               A   A   A   A   A   A
+      42               +   +   A   A   A   +
+      43               A   A   A   A   A   A
+      44               -   -   -   -   -   -
+      45               A   A   A   A   A   A
+      46               +   +   A   A   A   +
+      47               A   A   A   A   A   A
+      48               -   -   -   -   -   -
+      50 TO      53    +   +   A   A   A   +
+      49               +   +   -   -   -   +
+     ~54 TO    ~208    +   +   A   A   A   +
+    NULL                                    
+
+  CONSTRAINTS         U1  U2  U3  R1  R2  R3
+ 2                     A   A               A
